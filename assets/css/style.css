@@ -1,0 +1,168 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+header {
+    text-align: center;
+}
+nav ul {
+    background-color: black;
+    list-style-type: none;
+    padding: 12px;
+    display: flex;
+    justify-content: space-around;
+}
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+.hero {
+    width: 100%;
+    background-image: url(.././img/photo_2024-08-29_21-14-24.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} 
+.hero h1 {
+    font-size: 40px;
+    background-color: rgba(0, 0, 0, 0.4);
+    border-radius: 5px;
+  }
+.About, .par, .PLANS{
+    display: flex;
+    background-color: rgb(242,249,252);
+    justify-content: center; 
+    flex-direction: column;
+    align-items: center;
+}
+.About, .par{
+    text-align: center;
+    font-size: small;
+    padding: 30px;
+}
+.PLANS{
+    padding: 20px;
+} 
+h2, h3, p{
+    color: black;
+}
+h2, h3{
+    text-align: center;
+    font-family: monospace;
+    letter-spacing: 1px;
+}
+h2{
+    font-size: 40px;
+    font-weight: bolder;
+}
+h3{
+    font-size: 50ox;
+    font-weight: 700;
+}
+.FIRST, .Title, .END{
+    flex-direction: column;
+    align-items: center;
+    text-align: center; 
+    display: flex;
+    background-color: rgb(252,213,191);
+}
+.FIRST, .Title{
+    justify-content: center;
+    font-size: small;
+    padding: 30px;
+}
+.END{
+    font-size: small;
+    padding: 20px; 
+}
+.parent, .one, .two, .tit, .tit1, .plan {
+    justify-content: space-between;
+}
+.parent, .par2, .tit, .plan, .end1{
+    display: flex;
+}
+.parent, .par2{
+    align-items: center;
+}
+.par2{
+    text-align: center;
+}
+.two{
+    margin: 20px;
+    padding: 20px;
+}
+.one {
+    margin: 20px;
+    padding: 20px;
+}
+.tit1 img{ 
+    width: 130px;
+    height: 90px;
+    background-size: cover;
+    margin: 20px;}
+.tit {
+    flex-wrap: wrap;
+}
+.tit1{
+    flex: 1;
+    padding-top: 25px;
+    text-align: center;
+    margin: 20px;
+    padding: 20px;
+} 
+.plan{
+    margin: 20px;
+    padding: 20px;
+}
+.plan1{
+    height: 250px;
+    width: 200px;
+    background-color: rgb(245,222,179);
+    border-radius: 5px;
+    margin: 20px;
+    padding: 20px;  
+}
+.plan1 img{
+    width: 170px;
+    height: 70px;
+    margin: 10px;
+}
+.plan2{
+    height: 70px;
+    width: 200px;
+    border-radius: 5px;
+    background-color: rgb(253,233,140);
+    margin: 2px;
+    padding: 2px;
+    border: 2px solid rgb(248,220,127);
+}
+.end1{
+    flex-direction: column;
+    align-items: start;
+    margin: 10px;
+    padding: 10px;
+}
+input{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.last{
+    padding: 40px;
+    margin: 20px;
+}
+footer {
+    background-color: black;
+    text-align: center;
+    padding: 20px;
+}
+footer .social-media a {
+    margin: 15px;
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+}
